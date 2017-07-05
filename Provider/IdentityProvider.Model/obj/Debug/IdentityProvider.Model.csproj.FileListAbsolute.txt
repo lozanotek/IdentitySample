@@ -1,0 +1,5 @@
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Model\bin\Debug\IdentityProvider.Model.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Model\bin\Debug\IdentityProvider.Model.pdb
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Model\obj\Debug\IdentityProvider.Model.csprojResolveAssemblyReference.cache
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Model\obj\Debug\IdentityProvider.Model.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Model\obj\Debug\IdentityProvider.Model.pdb

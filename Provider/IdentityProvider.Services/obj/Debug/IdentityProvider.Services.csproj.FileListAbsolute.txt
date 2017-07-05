@@ -1,0 +1,11 @@
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityProvider.Services.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityProvider.Services.pdb
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityProvider.Model.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityServer3.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\Owin.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityProvider.Model.pdb
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityServer3.pdb
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\bin\Debug\IdentityServer3.xml
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\obj\Debug\IdentityProvider.Services.csprojResolveAssemblyReference.cache
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\obj\Debug\IdentityProvider.Services.dll
+C:\git\github\lozanotek\IdentitySample\Provider\IdentityProvider.Services\obj\Debug\IdentityProvider.Services.pdb
