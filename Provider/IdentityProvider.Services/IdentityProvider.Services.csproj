@@ -45,7 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICredentialProvider.cs" />
-    <Compile Include="IdentityUserService.cs" />
+    <Compile Include="IdentityClientStore.cs" />
+    <Compile Include="IIdentityService.cs" />
+    <Compile Include="Impl\IdentityService.cs" />
+    <Compile Include="LoginUserService.cs" />
     <Compile Include="Impl\CredentialProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

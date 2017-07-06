@@ -45,6 +45,8 @@
     <Compile Include="Domain\Identity.cs" />
     <Compile Include="Domain\Session.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\CredentialResult.cs" />
+    <Compile Include="ViewModel\IdentityViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

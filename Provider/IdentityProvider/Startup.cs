@@ -1,7 +1,9 @@
 ﻿using IdentityProvider.Security;
 using IdentityProvider.Services;
+
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Services;
+
 using Microsoft.Owin;
 using Owin;
 
@@ -14,17 +16,24 @@ namespace IdentityProvider
         public void Configuration(IAppBuilder app)
         {
             var factory = new IdentityServerServiceFactory()
-                                //.UseInMemoryUsers(Users.Get())
                                 .UseInMemoryClients(Clients.Get())
                                 .UseInMemoryScopes(Scopes.Get());
 
-            factory.UserService = new Registration<IUserService, IdentityUserService>();
+            factory.Register(new Registration<ICredentialProvider, CredentialProvider>());
+            factory.Register(new Registration<IIdentityService, IdentityService>());
+
+            factory.UserService = new Registration<IUserService, LoginUserService>();
+            factory.ClientStore = new Registration<IClientStore, IdentityClientStore>();
 
             var options = new IdentityServerOptions
             {
                 RequireSsl = false,
                 SigningCertificate = Cert.Load(),
-                Factory = factory
+                Factory = factory,
+                AuthenticationOptions = new AuthenticationOptions
+                {
+                    EnablePostSignOutAutoRedirect = true
+                }
             };
 
             app.Map("/identity", idsrvApp =>

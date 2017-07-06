@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace IdentityProvider.Model.Domain
+namespace IdentityProvider.Model.ViewModel
 {
-    public class Identity
+    public class IdentityViewModel
     {
         public Guid IdentityId { get; set; }
         public string Alias { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string MiddleName { get; set; }
         public string Email { get; set; }
-        public DateTime CreatedDate { get; set; }
     }
 }
